@@ -1,0 +1,97 @@
+{
+  "name": "opencontent/project-openconsiglio",
+  "description": "OpenContent OpenConsiglio project installer",
+  "license": "GPL-2.0",
+  "minimum-stability": "dev",
+  "require": {
+    "composer/installers": "~1.0.0",
+    "opencontent/opencontent-project-installer": "~1.0",
+    "ezsystems/ezpublish-legacy": "v2018.06.1.1",
+    "ezsystems/ezpublish-legacy-installer": "dev-settings",
+    "paradoxe/paradoxpdf": "1.*",
+    "dpobel/ezclasslists-ls": "1.*",
+    "ezsystems/ezfind-ls": "v2015.01.0",
+    "ezsystems/eztags-ls": "2.2.1",
+    "lolautruche/sqliimport": "~1.3",
+    "opencontent/ezchangeclass-ls": "1.*",
+    "opencontent/jcremoteid-ls": "1.*",
+    "opencontent/ocbootstrap-ls": "1.*",
+    "opencontent/occsvimport-ls": "1.*",
+    "opencontent/oceditorialstuff-ls": "1.*",
+    "opencontent/ocexportas-ls": "1.*",
+    "opencontent/ocmaintenance-ls": "2.*",
+    "opencontent/ocopendata-ls": "2.*",
+    "opencontent/ocoperatorscollection-ls": "1.*",
+    "opencontent/ocrecaptcha-ls": "1.*",
+    "opencontent/ocsearchtools-ls": "1.*",
+    "opencontent/ocsocialdesign-ls": "1.*",
+    "opencontent/ocsocialuser-ls": "1.*",
+    "opencontent/ocbinarynullparser-ls": "1.*",
+    "opencontent/openpa_consiglio-ls": "dev-ftcoop",
+    "opencontent/ftcoop-cda": "dev-master"
+  },
+  "replace": {
+    "ezsystems/ezdemo-ls-extension": "*"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Opencontent/ezpublish-legacy-installer.git"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "paradoxe/paradoxpdf",
+        "version": "1",
+        "type": "ezpublish-legacy-extension",
+        "dist": {
+          "url": "https://github.com/paradoxe/paradoxpdf/archive/master.zip",
+          "type": "zip"
+        },
+        "extra": {
+          "ezpublish-legacy-extension-name": "paradoxpdf"
+        }
+      }
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpencontentCoop/openpa_consiglio.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpencontentCoop/occsvimport.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpencontentCoop/oceditorialstuff.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/Opencontent/ocexportas.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpencontentCoop/ocrecaptcha.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/Opencontent/ocbinarynullparser.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/OpencontentCoop/ftcoop-cda.git"
+    }
+  ],
+  "extra": {
+    "ezpublish-legacy-dir": "html"
+  },
+  "config": {
+    "vendor-dir": "html/vendor",
+    "discard-changes": true
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "cd html; php bin/php/ezcache.php --clear-id=global_ini; php bin/php/ezpgenerateautoloads.php -e;"
+    ]
+  }
+}
