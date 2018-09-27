@@ -814,7 +814,7 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "git@github.com:OpencontentCoop/ftcoop-cda.git",
+                "url": "https://github.com/OpencontentCoop/ftcoop-cda.git",
                 "reference": "ca25a75b7d22692de3494c7fe531655f8b57486b"
             },
             "dist": {
@@ -1346,12 +1346,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_consiglio.git",
-                "reference": "7e2ccf4a523fccc477ad56fc796bb598b3a84b12"
+                "reference": "4f7754dd2199e897d5fa4dc9b7c1d485e9449b1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_consiglio/zipball/7e2ccf4a523fccc477ad56fc796bb598b3a84b12",
-                "reference": "7e2ccf4a523fccc477ad56fc796bb598b3a84b12",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_consiglio/zipball/4f7754dd2199e897d5fa4dc9b7c1d485e9449b1e",
+                "reference": "4f7754dd2199e897d5fa4dc9b7c1d485e9449b1e",
                 "shasum": ""
             },
             "require": {
@@ -1376,7 +1376,7 @@
                 "source": "https://github.com/OpencontentCoop/openpa_consiglio/tree/master",
                 "issues": "https://github.com/OpencontentCoop/openpa_consiglio/issues"
             },
-            "time": "2018-09-27 20:38:34"
+            "time": "2018-09-27 20:50:25"
         },
         {
             "name": "paradoxe/paradoxpdf",
