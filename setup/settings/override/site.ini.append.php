@@ -16,6 +16,8 @@ GlobalSiteName=
 LogoutRedirect=/
 
 [SiteAccessSettings]
+ForceVirtualHost=true
+RemoveSiteAccessIfDefaultAccess=enabled
 CheckValidity=false
 AvailableSiteAccessList[]
 AvailableSiteAccessList[]=backend

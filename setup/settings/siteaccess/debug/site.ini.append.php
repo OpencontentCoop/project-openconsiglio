@@ -11,6 +11,7 @@ Charset=
 Socket=disabled
 
 [ExtensionSettings]
+ActiveAccessExtensions[]
 ActiveAccessExtensions[]=ezstarrating
 ActiveAccessExtensions[]=ocrecaptcha
 ActiveAccessExtensions[]=sqliimport
@@ -42,7 +43,7 @@ EmailReceiver=
 [SiteSettings]
 SiteName=openconsiglio
 SiteURL=openconsiglio.local
-LoginPage=custom
+LoginPage=embedded
 IndexPage=/consiglio/dashboard
 DefaultPage=/consiglio/dashboard
 
@@ -59,6 +60,7 @@ RegistrationEmail=
 [DesignSettings]
 SiteDesign=cda
 AdditionalSiteDesignList[]
+AdditionalSiteDesignList[]=openconsiglio
 AdditionalSiteDesignList[]=ocbootstrap
 AdditionalSiteDesignList[]=base
 AdditionalSiteDesignList[]=standard

@@ -11,6 +11,7 @@ Charset=
 Socket=disabled
 
 [ExtensionSettings]
+ActiveAccessExtensions[]
 ActiveAccessExtensions[]=ezstarrating
 ActiveAccessExtensions[]=ocrecaptcha
 ActiveAccessExtensions[]=ezfind
@@ -56,7 +57,7 @@ RegistrationEmail=
 RequireUserLogin=true
 RelatedSiteAccessList[]=backend
 RelatedSiteAccessList[]=frontend
-RelatedSiteAccessList[]=debugeZSiteAccess
+RelatedSiteAccessList[]=debug
 ShowHiddenNodes=true
 
 [DesignSettings]

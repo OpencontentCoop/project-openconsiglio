@@ -3,7 +3,6 @@
 [ImageMagick]
 IsEnabled=true
 ExecutablePath=/usr/bin
-ExecutablePath=/opt/ImageMagick/bin
 Executable=convert
 Filters[]=strippaexif=-strip
 Filters[]=customquality=-quality %1
@@ -25,5 +24,38 @@ Filters[]=roundtrans=-transparent White
 [MIMETypeSettings]
 # Set JPEG quality from 0 (worst quality, smallest file) to 100 (best quality, biggest file)
 Quality[]=image/jpeg;70
+
+[AliasSettings]
+AliasList[]
+AliasList[]=small
+AliasList[]=medium
+AliasList[]=large
+AliasList[]=rss
+AliasList[]=logo
+
+[small]
+Reference=
+Filters[]
+Filters[]=geometry/scaledownonly=100;160
+
+[medium]
+Reference=
+Filters[]
+Filters[]=geometry/scaledownonly=200;290
+
+[large]
+Reference=
+Filters[]
+Filters[]=geometry/scaledownonly=360;440
+
+[rss]
+Reference=
+Filters[]
+Filters[]=geometry/scale=88;31
+
+[logo]
+Reference=
+Filters[]
+Filters[]=geometry/scaleheight=36
 
 */ ?>
