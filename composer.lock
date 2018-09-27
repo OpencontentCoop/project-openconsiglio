@@ -1346,12 +1346,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_consiglio.git",
-                "reference": "3ec1948d29bc12a8fd3921573f2d04f742581a6c"
+                "reference": "b492dd8bda514ee49f584b7e40c51903011dfb2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_consiglio/zipball/3ec1948d29bc12a8fd3921573f2d04f742581a6c",
-                "reference": "3ec1948d29bc12a8fd3921573f2d04f742581a6c",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_consiglio/zipball/b492dd8bda514ee49f584b7e40c51903011dfb2c",
+                "reference": "b492dd8bda514ee49f584b7e40c51903011dfb2c",
                 "shasum": ""
             },
             "require": {
@@ -1376,7 +1376,7 @@
                 "source": "https://github.com/OpencontentCoop/openpa_consiglio/tree/master",
                 "issues": "https://github.com/OpencontentCoop/openpa_consiglio/issues"
             },
-            "time": "2018-09-27 22:40:11"
+            "time": "2018-09-27 22:49:34"
         },
         {
             "name": "paradoxe/paradoxpdf",
