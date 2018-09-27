@@ -27,7 +27,7 @@
     "opencontent/ocsocialdesign-ls": "1.*",
     "opencontent/ocsocialuser-ls": "1.*",
     "opencontent/ocbinarynullparser-ls": "1.*",
-    "opencontent/openpa_consiglio-ls": "dev-ftcoop",
+    "opencontent/openpa_consiglio-ls": "dev-master",
     "opencontent/ftcoop-cda": "dev-master"
   },
   "replace": {

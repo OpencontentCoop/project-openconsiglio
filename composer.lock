@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7fe45dfb6b563af35a3117c7e1ed1ae1",
-    "content-hash": "07cb4ba1e532fb064e99c57e0196268e",
+    "hash": "15474991d97121f0e36a9406734a5b24",
+    "content-hash": "b6623a419bce5c1a1a3e6349e07d87c0",
     "packages": [
         {
             "name": "composer/installers",
@@ -815,12 +815,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:OpencontentCoop/ftcoop-cda.git",
-                "reference": "3b019834635ef881188d399c3e00d65888825bf9"
+                "reference": "f8aadf5d383f473b7d0d37c3ae1c934a92cf84e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ftcoop-cda/zipball/3b019834635ef881188d399c3e00d65888825bf9",
-                "reference": "3b019834635ef881188d399c3e00d65888825bf9",
+                "url": "https://api.github.com/repos/OpencontentCoop/ftcoop-cda/zipball/f8aadf5d383f473b7d0d37c3ae1c934a92cf84e4",
+                "reference": "f8aadf5d383f473b7d0d37c3ae1c934a92cf84e4",
                 "shasum": ""
             },
             "require": {
@@ -841,10 +841,10 @@
             ],
             "description": "OpenContent FTCoop OpenConsiglio extension",
             "support": {
-                "source": "https://github.com/OpencontentCoop/ftcoop-cda/tree/dev",
+                "source": "https://github.com/OpencontentCoop/ftcoop-cda/tree/master",
                 "issues": "https://github.com/OpencontentCoop/ftcoop-cda/issues"
             },
-            "time": "2018-09-27 13:19:25"
+            "time": "2018-09-27 14:21:30"
         },
         {
             "name": "opencontent/jcremoteid-ls",
@@ -1342,16 +1342,16 @@
         },
         {
             "name": "opencontent/openpa_consiglio-ls",
-            "version": "dev-ftcoop",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_consiglio.git",
-                "reference": "43c268c9ac4e493bfc5e92566bac7f47841f5d11"
+                "reference": "ec74fe72deecb58b11c019082a44052c5403aa28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_consiglio/zipball/43c268c9ac4e493bfc5e92566bac7f47841f5d11",
-                "reference": "43c268c9ac4e493bfc5e92566bac7f47841f5d11",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_consiglio/zipball/ec74fe72deecb58b11c019082a44052c5403aa28",
+                "reference": "ec74fe72deecb58b11c019082a44052c5403aa28",
                 "shasum": ""
             },
             "require": {
@@ -1373,10 +1373,10 @@
             ],
             "description": "Opencontent OpenPA Consiglio",
             "support": {
-                "source": "https://github.com/OpencontentCoop/openpa_consiglio/tree/ftcoop",
+                "source": "https://github.com/OpencontentCoop/openpa_consiglio/tree/master",
                 "issues": "https://github.com/OpencontentCoop/openpa_consiglio/issues"
             },
-            "time": "2018-09-26 10:50:44"
+            "time": "2018-09-27 14:21:51"
         },
         {
             "name": "paradoxe/paradoxpdf",
