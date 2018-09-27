@@ -815,12 +815,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:OpencontentCoop/ftcoop-cda.git",
-                "reference": "033142dffd2ff5c7313d973fa6665617269f224f"
+                "reference": "3b019834635ef881188d399c3e00d65888825bf9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ftcoop-cda/zipball/033142dffd2ff5c7313d973fa6665617269f224f",
-                "reference": "033142dffd2ff5c7313d973fa6665617269f224f",
+                "url": "https://api.github.com/repos/OpencontentCoop/ftcoop-cda/zipball/3b019834635ef881188d399c3e00d65888825bf9",
+                "reference": "3b019834635ef881188d399c3e00d65888825bf9",
                 "shasum": ""
             },
             "require": {
@@ -841,10 +841,10 @@
             ],
             "description": "OpenContent FTCoop OpenConsiglio extension",
             "support": {
-                "source": "https://github.com/OpencontentCoop/ftcoop-cda/tree/master",
+                "source": "https://github.com/OpencontentCoop/ftcoop-cda/tree/dev",
                 "issues": "https://github.com/OpencontentCoop/ftcoop-cda/issues"
             },
-            "time": "2018-09-26 21:45:52"
+            "time": "2018-09-27 13:19:25"
         },
         {
             "name": "opencontent/jcremoteid-ls",
