@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f9601d1d692e70c54fa0664ceb2e0c29",
-    "content-hash": "093e54cd8912de1a70aca9a5e65fb8c3",
+    "hash": "03635ccf0dea529611728ba70f85c9fa",
+    "content-hash": "788f9702a7d8b250f0c65c91c6d1cda2",
     "packages": [
         {
             "name": "composer/installers",
@@ -206,19 +206,20 @@
         },
         {
             "name": "ezsystems/ezfind-ls",
-            "version": "v2015.01.0",
+            "version": "v2017.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezsystems/ezfind.git",
-                "reference": "d54863bffd29a005dfaf10a18f663c7c962a03b1"
+                "reference": "9d3334d776435934c4c49a3232fe4148b3df6073"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezsystems/ezfind/zipball/d54863bffd29a005dfaf10a18f663c7c962a03b1",
-                "reference": "d54863bffd29a005dfaf10a18f663c7c962a03b1",
+                "url": "https://api.github.com/repos/ezsystems/ezfind/zipball/9d3334d776435934c4c49a3232fe4148b3df6073",
+                "reference": "9d3334d776435934c4c49a3232fe4148b3df6073",
                 "shasum": ""
             },
             "require": {
+                "ezsystems/ezpublish-legacy": ">=2017.10",
                 "ezsystems/ezpublish-legacy-installer": "*"
             },
             "type": "ezpublish-legacy-extension",
@@ -236,7 +237,7 @@
                 }
             ],
             "description": "eZ Find is a search extension for eZ Publish legacy, providing more functionality and better results than the default search in eZ Publish.",
-            "time": "2015-02-23 15:45:41"
+            "time": "2017-12-22 13:01:38"
         },
         {
             "name": "ezsystems/ezflow-ls-extension",
