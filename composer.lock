@@ -1,11 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "03635ccf0dea529611728ba70f85c9fa",
-    "content-hash": "788f9702a7d8b250f0c65c91c6d1cda2",
+    "content-hash": "2209f87fbe75146169ee46b77648703b",
     "packages": [
         {
             "name": "composer/installers",
@@ -126,7 +125,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2018-09-12 10:41:00"
+            "time": "2018-09-12T10:41:00+00:00"
         },
         {
             "name": "dpobel/ezclasslists-ls",
@@ -164,7 +163,7 @@
                 }
             ],
             "description": "eZ Class lists (OpenContent Fork)",
-            "time": "2015-02-05 09:33:00"
+            "time": "2015-02-05T09:33:00+00:00"
         },
         {
             "name": "ezsystems/ezautosave-ls",
@@ -202,20 +201,20 @@
                 }
             ],
             "description": "Content editing autosave extension for eZ Publish legacy",
-            "time": "2015-03-30 15:15:25"
+            "time": "2015-03-30T15:15:25+00:00"
         },
         {
             "name": "ezsystems/ezfind-ls",
-            "version": "v2017.12.0",
+            "version": "2018.09",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ezsystems/ezfind.git",
-                "reference": "9d3334d776435934c4c49a3232fe4148b3df6073"
+                "url": "https://github.com/Opencontent/ezfind.git",
+                "reference": "26b5304e40206b515a8f7dd504e893664c2900f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezsystems/ezfind/zipball/9d3334d776435934c4c49a3232fe4148b3df6073",
-                "reference": "9d3334d776435934c4c49a3232fe4148b3df6073",
+                "url": "https://api.github.com/repos/Opencontent/ezfind/zipball/26b5304e40206b515a8f7dd504e893664c2900f4",
+                "reference": "26b5304e40206b515a8f7dd504e893664c2900f4",
                 "shasum": ""
             },
             "require": {
@@ -226,7 +225,6 @@
             "extra": {
                 "ezpublish-legacy-extension-name": "ezfind"
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-2.0"
             ],
@@ -237,7 +235,10 @@
                 }
             ],
             "description": "eZ Find is a search extension for eZ Publish legacy, providing more functionality and better results than the default search in eZ Publish.",
-            "time": "2017-12-22 13:01:38"
+            "support": {
+                "source": "https://github.com/Opencontent/ezfind/tree/2018.09"
+            },
+            "time": "2018-09-30T17:48:22+00:00"
         },
         {
             "name": "ezsystems/ezflow-ls-extension",
@@ -276,7 +277,7 @@
                 }
             ],
             "description": "eZ Publish Legacy Flow extension",
-            "time": "2014-09-23 08:12:19"
+            "time": "2014-09-23T08:12:19+00:00"
         },
         {
             "name": "ezsystems/ezgmaplocation-ls-extension",
@@ -315,7 +316,7 @@
                 }
             ],
             "description": "eZ Publish Legacy map location datatype extension",
-            "time": "2018-09-18 09:43:29"
+            "time": "2018-09-18T09:43:29+00:00"
         },
         {
             "name": "ezsystems/ezie-ls",
@@ -349,7 +350,7 @@
                 }
             ],
             "description": "An image editor for simple and usual image modifications integrated in the editing interface of any eZ Publish Content Object that has at least an image as attribute.",
-            "time": "2018-09-07 04:12:34"
+            "time": "2018-09-07T04:12:34+00:00"
         },
         {
             "name": "ezsystems/ezmbpaex-ls",
@@ -383,7 +384,7 @@
                 }
             ],
             "description": "eZ Publish Legacy Extension that provides functionality for password expiration and validation.",
-            "time": "2014-05-19 14:59:01"
+            "time": "2014-05-19T14:59:01+00:00"
         },
         {
             "name": "ezsystems/ezmultiupload-ls",
@@ -417,7 +418,7 @@
                 }
             ],
             "description": "Multi-upload extension for eZ Publish legacy",
-            "time": "2017-03-23 08:20:11"
+            "time": "2017-03-23T08:20:11+00:00"
         },
         {
             "name": "ezsystems/ezodf-ls",
@@ -451,7 +452,7 @@
                 }
             ],
             "description": "This extension enables import and export of OpenOffice.org Writer documents within eZ Publish legacy",
-            "time": "2015-10-20 09:34:29"
+            "time": "2015-10-20T09:34:29+00:00"
         },
         {
             "name": "ezsystems/ezprestapiprovider-ls",
@@ -485,7 +486,7 @@
                 }
             ],
             "description": "eZ Publish REST API v1 content provider",
-            "time": "2014-05-16 23:35:35"
+            "time": "2014-05-16T23:35:35+00:00"
         },
         {
             "name": "ezsystems/ezpublish-legacy",
@@ -580,7 +581,7 @@
             ],
             "description": "eZ Publish LegacyStack (4.x)",
             "homepage": "http://share.ez.no",
-            "time": "2018-07-18 12:27:32"
+            "time": "2018-07-18T12:27:32+00:00"
         },
         {
             "name": "ezsystems/ezpublish-legacy-installer",
@@ -625,7 +626,7 @@
             "support": {
                 "source": "https://github.com/Opencontent/ezpublish-legacy-installer/tree/settings"
             },
-            "time": "2017-11-10 12:56:20"
+            "time": "2017-11-10T12:56:20+00:00"
         },
         {
             "name": "ezsystems/ezstarrating-ls-extension",
@@ -664,7 +665,7 @@
                 }
             ],
             "description": "eZ Publish Legacy starrating extension",
-            "time": "2014-11-01 17:15:47"
+            "time": "2014-11-01T17:15:47+00:00"
         },
         {
             "name": "ezsystems/eztags-ls",
@@ -705,7 +706,7 @@
                 }
             ],
             "description": "eZ Tags is an extension for eZ Publish, providing more functionality for tagging content objects than ezkeyword datatype included in eZ Publish kernel.",
-            "time": "2016-10-31 11:34:18"
+            "time": "2016-10-31T11:34:18+00:00"
         },
         {
             "name": "ezsystems/ezwt-ls-extension",
@@ -739,7 +740,7 @@
                 }
             ],
             "description": "eZ Publish Legacy website toolbar extension",
-            "time": "2014-05-20 19:53:34"
+            "time": "2014-05-20T19:53:34+00:00"
         },
         {
             "name": "lolautruche/sqliimport",
@@ -770,7 +771,7 @@
                 }
             ],
             "description": "eZ Publish legacy extension for importing external content",
-            "time": "2015-11-18 08:18:09"
+            "time": "2015-11-18T08:18:09+00:00"
         },
         {
             "name": "opencontent/ezchangeclass-ls",
@@ -808,7 +809,7 @@
                 }
             ],
             "description": "eZChangeclass (OpenContent Fork)",
-            "time": "2018-04-03 10:40:39"
+            "time": "2018-04-03T10:40:39+00:00"
         },
         {
             "name": "opencontent/ftcoop-cda",
@@ -845,7 +846,7 @@
                 "source": "https://github.com/OpencontentCoop/ftcoop-cda/tree/master",
                 "issues": "https://github.com/OpencontentCoop/ftcoop-cda/issues"
             },
-            "time": "2018-09-28 08:28:40"
+            "time": "2018-09-28T08:28:40+00:00"
         },
         {
             "name": "opencontent/jcremoteid-ls",
@@ -883,7 +884,7 @@
                 }
             ],
             "description": "jcRemoteID Datatype (OpenContent Fork)",
-            "time": "2015-02-05 09:53:03"
+            "time": "2015-02-05T09:53:03+00:00"
         },
         {
             "name": "opencontent/ocbinarynullparser-ls",
@@ -920,7 +921,7 @@
                 "source": "https://github.com/Opencontent/ocbinarynullparser/tree/1.0",
                 "issues": "https://github.com/Opencontent/ocbinarynullparser/issues"
             },
-            "time": "2016-03-15 21:53:26"
+            "time": "2016-03-15T21:53:26+00:00"
         },
         {
             "name": "opencontent/ocbootstrap-ls",
@@ -954,7 +955,7 @@
                 }
             ],
             "description": "OpenContent Bootstrap Base Design",
-            "time": "2018-06-06 09:34:07"
+            "time": "2018-06-06T09:34:07+00:00"
         },
         {
             "name": "opencontent/occsvimport-ls",
@@ -991,7 +992,7 @@
                 "source": "https://github.com/OpencontentCoop/occsvimport/tree/2.0.1",
                 "issues": "https://github.com/OpencontentCoop/occsvimport/issues"
             },
-            "time": "2018-04-10 10:15:54"
+            "time": "2018-04-10T10:15:54+00:00"
         },
         {
             "name": "opencontent/oceditorialstuff-ls",
@@ -1028,7 +1029,7 @@
                 "source": "https://github.com/OpencontentCoop/oceditorialstuff/tree/2.1.2",
                 "issues": "https://github.com/OpencontentCoop/oceditorialstuff/issues"
             },
-            "time": "2018-09-27 16:11:48"
+            "time": "2018-09-27T16:11:48+00:00"
         },
         {
             "name": "opencontent/ocexportas-ls",
@@ -1065,7 +1066,7 @@
                 "source": "https://github.com/OpencontentCoop/ocexportas/tree/1.3.1",
                 "issues": "https://github.com/OpencontentCoop/ocexportas/issues"
             },
-            "time": "2018-02-27 19:20:55"
+            "time": "2018-02-27T19:20:55+00:00"
         },
         {
             "name": "opencontent/ocmaintenance-ls",
@@ -1099,7 +1100,7 @@
                 }
             ],
             "description": "Opencontent Maintenance",
-            "time": "2018-03-06 16:55:33"
+            "time": "2018-03-06T16:55:33+00:00"
         },
         {
             "name": "opencontent/ocopendata-ls",
@@ -1133,7 +1134,7 @@
                 }
             ],
             "description": "Opencontent OpenData Extension",
-            "time": "2018-09-19 13:44:34"
+            "time": "2018-09-19T13:44:34+00:00"
         },
         {
             "name": "opencontent/ocoperatorscollection-ls",
@@ -1167,7 +1168,7 @@
                 }
             ],
             "description": "Opencontent Template Operator Collection",
-            "time": "2018-04-03 14:16:42"
+            "time": "2018-04-03T14:16:42+00:00"
         },
         {
             "name": "opencontent/ocrecaptcha-ls",
@@ -1204,7 +1205,7 @@
                 "source": "https://github.com/OpencontentCoop/ocrecaptcha/tree/1.3.1",
                 "issues": "https://github.com/OpencontentCoop/ocrecaptcha/issues"
             },
-            "time": "2018-06-19 11:13:22"
+            "time": "2018-06-19T11:13:22+00:00"
         },
         {
             "name": "opencontent/ocsearchtools-ls",
@@ -1238,7 +1239,7 @@
                 }
             ],
             "description": "Opencontent Search Tools",
-            "time": "2018-07-03 06:32:14"
+            "time": "2018-07-03T06:32:14+00:00"
         },
         {
             "name": "opencontent/ocsocialdesign-ls",
@@ -1272,7 +1273,7 @@
                 }
             ],
             "description": "OpenContent Social Design Pagedata",
-            "time": "2018-01-10 18:08:49"
+            "time": "2018-01-10T18:08:49+00:00"
         },
         {
             "name": "opencontent/ocsocialuser-ls",
@@ -1306,7 +1307,7 @@
                 }
             ],
             "description": "OpenContent Social User Tools",
-            "time": "2018-02-07 10:20:02"
+            "time": "2018-02-07T10:20:02+00:00"
         },
         {
             "name": "opencontent/opencontent-project-installer",
@@ -1339,7 +1340,7 @@
                 }
             ],
             "description": "Installer for OpenContent project.",
-            "time": "2016-02-19 13:41:02"
+            "time": "2016-02-19T13:41:02+00:00"
         },
         {
             "name": "opencontent/openpa_consiglio-ls",
@@ -1377,7 +1378,7 @@
                 "source": "https://github.com/OpencontentCoop/openpa_consiglio/tree/master",
                 "issues": "https://github.com/OpencontentCoop/openpa_consiglio/issues"
             },
-            "time": "2018-09-28 08:28:18"
+            "time": "2018-09-28T08:28:18+00:00"
         },
         {
             "name": "paradoxe/paradoxpdf",
@@ -1457,7 +1458,7 @@
             ],
             "description": "The component allows you to create, modify, and extract archive files of  various formats.  The currently supported archives formats are Tar (with  the flavours: ustar, v7, pax, and gnu) and Zip.",
             "homepage": "https://github.com/zetacomponents",
-            "time": "2014-09-27 19:26:09"
+            "time": "2014-09-27T19:26:09+00:00"
         },
         {
             "name": "zetacomponents/authentication",
@@ -1523,7 +1524,7 @@
             ],
             "description": "The purpose of the Authentication component is to provide support for different means of identification and authentication of users using different providers and protocols.",
             "homepage": "https://github.com/zetacomponents",
-            "time": "2014-09-27 19:26:09"
+            "time": "2014-09-27T19:26:09+00:00"
         },
         {
             "name": "zetacomponents/authentication-database-tiein",
@@ -1590,7 +1591,7 @@
             ],
             "description": "The purpose of the Authentication component is to provide support for different means of identification and authentication of users using different providers and protocols.",
             "homepage": "https://github.com/zetacomponents",
-            "time": "2014-09-27 19:26:09"
+            "time": "2014-09-27T19:26:09+00:00"
         },
         {
             "name": "zetacomponents/base",
@@ -1654,7 +1655,7 @@
             ],
             "description": "The Base package provides the basic infrastructure that all packages rely on. Therefore every component relies on this package.",
             "homepage": "https://github.com/zetacomponents",
-            "time": "2017-11-28 11:30:00"
+            "time": "2017-11-28T11:30:00+00:00"
         },
         {
             "name": "zetacomponents/cache",
@@ -1723,7 +1724,7 @@
             ],
             "description": "A solution for caching, supporting multiple backends allowing you to specify the best performing solution for your caching-problem.",
             "homepage": "https://github.com/zetacomponents",
-            "time": "2014-09-27 19:26:09"
+            "time": "2014-09-27T19:26:09+00:00"
         },
         {
             "name": "zetacomponents/configuration",
@@ -1789,7 +1790,7 @@
             ],
             "description": "A component that allows you to use configuration files in different formats. The formats include the standard .ini file, and an array based format.",
             "homepage": "https://github.com/zetacomponents",
-            "time": "2014-09-27 19:26:09"
+            "time": "2014-09-27T19:26:09+00:00"
         },
         {
             "name": "zetacomponents/console-tools",
@@ -1855,7 +1856,7 @@
             ],
             "description": "A set of classes to do different actions with the console (also called shell). It can render a progress bar, tables and a status bar and contains a class for parsing command line options.",
             "homepage": "https://github.com/zetacomponents",
-            "time": "2014-09-27 19:26:09"
+            "time": "2014-09-27T19:26:09+00:00"
         },
         {
             "name": "zetacomponents/database",
@@ -1932,7 +1933,7 @@
             ],
             "description": "A lightweight database layer on top of PHP's PDO that allows you to utilize a database without having to take care of differences in SQL dialects.",
             "homepage": "https://github.com/zetacomponents",
-            "time": "2017-11-28 10:55:26"
+            "time": "2017-11-28T10:55:26+00:00"
         },
         {
             "name": "zetacomponents/debug",
@@ -1998,7 +1999,7 @@
             ],
             "description": "This component provides a set of classes that help you to debug an application. It provides timers and report generators for different formats that give a summary of warnings and errors that occurred within your application.",
             "homepage": "https://github.com/zetacomponents",
-            "time": "2014-09-27 19:26:09"
+            "time": "2014-09-27T19:26:09+00:00"
         },
         {
             "name": "zetacomponents/event-log",
@@ -2064,7 +2065,7 @@
             ],
             "description": "Allows you to log events or audit trails into files or other storage spaces in different formats.",
             "homepage": "https://github.com/zetacomponents",
-            "time": "2014-09-27 19:26:09"
+            "time": "2014-09-27T19:26:09+00:00"
         },
         {
             "name": "zetacomponents/feed",
@@ -2130,7 +2131,7 @@
             ],
             "description": "This component handles parsing and creating RSS1, RSS2 and ATOM feeds, with support for different feed modules (dc, content, creativeCommons, geo, iTunes).",
             "homepage": "https://github.com/zetacomponents",
-            "time": "2014-09-27 19:26:09"
+            "time": "2014-09-27T19:26:09+00:00"
         },
         {
             "name": "zetacomponents/image-analysis",
@@ -2196,7 +2197,7 @@
             ],
             "description": "This class allows you to analyse image files in different ways. At least the MIME type of the file is returned. In some cases (JPEG, TIFF and GIF) additional information is gathered as well.",
             "homepage": "https://github.com/zetacomponents",
-            "time": "2014-09-27 19:26:09"
+            "time": "2014-09-27T19:26:09+00:00"
         },
         {
             "name": "zetacomponents/image-conversion",
@@ -2263,7 +2264,7 @@
             ],
             "description": "A set of classes to apply different filters on images, such as colour changes, resizing and special effects.",
             "homepage": "https://github.com/zetacomponents",
-            "time": "2014-09-27 19:26:09"
+            "time": "2014-09-27T19:26:09+00:00"
         },
         {
             "name": "zetacomponents/mail",
@@ -2338,7 +2339,7 @@
             ],
             "description": "The component allows you construct and/or parse Mail messages conforming to  the mail standard. It has support for attachments, multipart messages and HTML  mail. It also interfaces with SMTP to send mail or IMAP, POP3 or mbox to  retrieve e-mail.",
             "homepage": "https://github.com/zetacomponents",
-            "time": "2017-11-18 11:11:17"
+            "time": "2017-11-18T11:11:17+00:00"
         },
         {
             "name": "zetacomponents/mvc-authentication-tiein",
@@ -2387,7 +2388,7 @@
             ],
             "description": "This component provides authentication filters for the MvcTools component.",
             "homepage": "https://github.com/zetacomponents",
-            "time": "2014-09-27 19:26:09"
+            "time": "2014-09-27T19:26:09+00:00"
         },
         {
             "name": "zetacomponents/mvc-tools",
@@ -2442,7 +2443,7 @@
             ],
             "description": "The MvcTools component provides functionality for request parsing, routing, dispatching, views and response writing. With the tools in this component you can very easily build an MVC framework.",
             "homepage": "https://github.com/zetacomponents",
-            "time": "2016-01-01 23:15:45"
+            "time": "2016-01-01T23:15:45+00:00"
         },
         {
             "name": "zetacomponents/persistent-object",
@@ -2511,7 +2512,7 @@
             ],
             "description": "This component allows you to store an arbitrary data structures to a fixed database table. The component provides all the functionality needed to fetch, list, delete etc these datastructures.",
             "homepage": "https://github.com/zetacomponents",
-            "time": "2014-09-27 19:26:09"
+            "time": "2014-09-27T19:26:09+00:00"
         },
         {
             "name": "zetacomponents/signal-slot",
@@ -2577,7 +2578,7 @@
             ],
             "description": "The SignalSlot component implements a mechanism for inter and intra object communication through the use of signals and slots.",
             "homepage": "https://github.com/zetacomponents",
-            "time": "2014-09-27 19:26:09"
+            "time": "2014-09-27T19:26:09+00:00"
         },
         {
             "name": "zetacomponents/system-information",
@@ -2643,7 +2644,7 @@
             ],
             "description": "Provides access to common system variables, such as CPU type and speed, and the available amount of memory.",
             "homepage": "https://github.com/zetacomponents",
-            "time": "2016-10-23 21:18:48"
+            "time": "2016-10-23T21:18:48+00:00"
         },
         {
             "name": "zetacomponents/webdav",
@@ -2709,7 +2710,7 @@
             ],
             "description": "This component allows you to set up and run your own WebDAV (RFC 2518) server, to enable online content editing for the users of your system through the WebDAV HTTP extension.",
             "homepage": "https://github.com/zetacomponents",
-            "time": "2014-09-27 19:26:10"
+            "time": "2014-09-27T19:26:10+00:00"
         }
     ],
     "packages-dev": [],

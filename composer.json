@@ -10,7 +10,7 @@
     "ezsystems/ezpublish-legacy-installer": "dev-settings",
     "paradoxe/paradoxpdf": "1.*",
     "dpobel/ezclasslists-ls": "1.*",
-    "ezsystems/ezfind-ls": "v2017.12.0",
+    "ezsystems/ezfind-ls": "2018.09",
     "ezsystems/eztags-ls": "2.2.1",
     "lolautruche/sqliimport": "~1.3",
     "opencontent/ezchangeclass-ls": "1.*",
@@ -80,6 +80,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/OpencontentCoop/ftcoop-cda.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/Opencontent/ezfind.git"
     }
   ],
   "extra": {
