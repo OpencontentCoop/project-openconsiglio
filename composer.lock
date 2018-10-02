@@ -817,12 +817,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ftcoop-cda.git",
-                "reference": "b46425d025baaf891c0f2c79de19db4fc8120ec1"
+                "reference": "5a4e71ca3d29d6a085febdd5ffbf8b7e5e1982e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ftcoop-cda/zipball/b46425d025baaf891c0f2c79de19db4fc8120ec1",
-                "reference": "b46425d025baaf891c0f2c79de19db4fc8120ec1",
+                "url": "https://api.github.com/repos/OpencontentCoop/ftcoop-cda/zipball/5a4e71ca3d29d6a085febdd5ffbf8b7e5e1982e9",
+                "reference": "5a4e71ca3d29d6a085febdd5ffbf8b7e5e1982e9",
                 "shasum": ""
             },
             "require": {
@@ -846,7 +846,7 @@
                 "source": "https://github.com/OpencontentCoop/ftcoop-cda/tree/master",
                 "issues": "https://github.com/OpencontentCoop/ftcoop-cda/issues"
             },
-            "time": "2018-09-28T08:28:40+00:00"
+            "time": "2018-10-02T10:36:24+00:00"
         },
         {
             "name": "opencontent/jcremoteid-ls",
@@ -1348,12 +1348,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_consiglio.git",
-                "reference": "e7ea45972c2b2faff86304eb15ff182a06de1421"
+                "reference": "20e132746d509a1c12a7bf190f9209db1aeb2b59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_consiglio/zipball/e7ea45972c2b2faff86304eb15ff182a06de1421",
-                "reference": "e7ea45972c2b2faff86304eb15ff182a06de1421",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_consiglio/zipball/20e132746d509a1c12a7bf190f9209db1aeb2b59",
+                "reference": "20e132746d509a1c12a7bf190f9209db1aeb2b59",
                 "shasum": ""
             },
             "require": {
@@ -1378,7 +1378,7 @@
                 "source": "https://github.com/OpencontentCoop/openpa_consiglio/tree/master",
                 "issues": "https://github.com/OpencontentCoop/openpa_consiglio/issues"
             },
-            "time": "2018-09-28T08:28:18+00:00"
+            "time": "2018-10-01T08:33:04+00:00"
         },
         {
             "name": "paradoxe/paradoxpdf",
