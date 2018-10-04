@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2209f87fbe75146169ee46b77648703b",
+    "content-hash": "492aefa95e6c1a2a72b81bddc84898fd",
     "packages": [
         {
             "name": "composer/installers",
@@ -205,16 +205,16 @@
         },
         {
             "name": "ezsystems/ezfind-ls",
-            "version": "2018.09",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Opencontent/ezfind.git",
-                "reference": "26b5304e40206b515a8f7dd504e893664c2900f4"
+                "reference": "2592f1612263d51e72897c8923dd8cf05b54a670"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Opencontent/ezfind/zipball/26b5304e40206b515a8f7dd504e893664c2900f4",
-                "reference": "26b5304e40206b515a8f7dd504e893664c2900f4",
+                "url": "https://api.github.com/repos/Opencontent/ezfind/zipball/2592f1612263d51e72897c8923dd8cf05b54a670",
+                "reference": "2592f1612263d51e72897c8923dd8cf05b54a670",
                 "shasum": ""
             },
             "require": {
@@ -236,9 +236,9 @@
             ],
             "description": "eZ Find is a search extension for eZ Publish legacy, providing more functionality and better results than the default search in eZ Publish.",
             "support": {
-                "source": "https://github.com/Opencontent/ezfind/tree/2018.09"
+                "source": "https://github.com/Opencontent/ezfind/tree/master"
             },
-            "time": "2018-09-30T17:48:22+00:00"
+            "time": "2018-10-02T15:41:42+00:00"
         },
         {
             "name": "ezsystems/ezflow-ls-extension",
@@ -354,16 +354,16 @@
         },
         {
             "name": "ezsystems/ezmbpaex-ls",
-            "version": "v5.3.2",
+            "version": "v5.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezsystems/ezmbpaex.git",
-                "reference": "18241b895870fa05872a37c160d298ba77af2491"
+                "reference": "6582c64c2c765b79c8874da03953a2090d041060"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezsystems/ezmbpaex/zipball/18241b895870fa05872a37c160d298ba77af2491",
-                "reference": "18241b895870fa05872a37c160d298ba77af2491",
+                "url": "https://api.github.com/repos/ezsystems/ezmbpaex/zipball/6582c64c2c765b79c8874da03953a2090d041060",
+                "reference": "6582c64c2c765b79c8874da03953a2090d041060",
                 "shasum": ""
             },
             "require": {
@@ -384,7 +384,7 @@
                 }
             ],
             "description": "eZ Publish Legacy Extension that provides functionality for password expiration and validation.",
-            "time": "2014-05-19T14:59:01+00:00"
+            "time": "2018-10-03T15:35:58+00:00"
         },
         {
             "name": "ezsystems/ezmultiupload-ls",
@@ -817,12 +817,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ftcoop-cda.git",
-                "reference": "5a4e71ca3d29d6a085febdd5ffbf8b7e5e1982e9"
+                "reference": "c0365a4a1049600a8ce6f1347cf66fb4a5b466c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ftcoop-cda/zipball/5a4e71ca3d29d6a085febdd5ffbf8b7e5e1982e9",
-                "reference": "5a4e71ca3d29d6a085febdd5ffbf8b7e5e1982e9",
+                "url": "https://api.github.com/repos/OpencontentCoop/ftcoop-cda/zipball/c0365a4a1049600a8ce6f1347cf66fb4a5b466c8",
+                "reference": "c0365a4a1049600a8ce6f1347cf66fb4a5b466c8",
                 "shasum": ""
             },
             "require": {
@@ -846,7 +846,7 @@
                 "source": "https://github.com/OpencontentCoop/ftcoop-cda/tree/master",
                 "issues": "https://github.com/OpencontentCoop/ftcoop-cda/issues"
             },
-            "time": "2018-10-02T10:36:24+00:00"
+            "time": "2018-10-04T14:52:55+00:00"
         },
         {
             "name": "opencontent/jcremoteid-ls",
@@ -1348,12 +1348,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_consiglio.git",
-                "reference": "20e132746d509a1c12a7bf190f9209db1aeb2b59"
+                "reference": "084dc56e47c0436ec705aae11698ae80f3e01ec6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_consiglio/zipball/20e132746d509a1c12a7bf190f9209db1aeb2b59",
-                "reference": "20e132746d509a1c12a7bf190f9209db1aeb2b59",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_consiglio/zipball/084dc56e47c0436ec705aae11698ae80f3e01ec6",
+                "reference": "084dc56e47c0436ec705aae11698ae80f3e01ec6",
                 "shasum": ""
             },
             "require": {
@@ -1378,7 +1378,7 @@
                 "source": "https://github.com/OpencontentCoop/openpa_consiglio/tree/master",
                 "issues": "https://github.com/OpencontentCoop/openpa_consiglio/issues"
             },
-            "time": "2018-10-01T08:33:04+00:00"
+            "time": "2018-10-04T16:57:18+00:00"
         },
         {
             "name": "paradoxe/paradoxpdf",
@@ -2718,6 +2718,7 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "ezsystems/ezpublish-legacy-installer": 20,
+        "ezsystems/ezfind-ls": 20,
         "opencontent/openpa_consiglio-ls": 20,
         "opencontent/ftcoop-cda": 20
     },
