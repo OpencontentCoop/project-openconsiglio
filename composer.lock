@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "365ddc2f8a147c27447d70e375e4c5bdf38e2766"
+                "reference": "b20f7b252cd6765ee68e66f8b3093a230ad97608"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/365ddc2f8a147c27447d70e375e4c5bdf38e2766",
-                "reference": "365ddc2f8a147c27447d70e375e4c5bdf38e2766",
+                "url": "https://api.github.com/repos/composer/installers/zipball/b20f7b252cd6765ee68e66f8b3093a230ad97608",
+                "reference": "b20f7b252cd6765ee68e66f8b3093a230ad97608",
                 "shasum": ""
             },
             "require": {
@@ -125,7 +125,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2018-09-12T10:41:00+00:00"
+            "time": "2018-10-10T11:17:18+00:00"
         },
         {
             "name": "dpobel/ezclasslists-ls",
@@ -1104,16 +1104,16 @@
         },
         {
             "name": "opencontent/ocopendata-ls",
-            "version": "2.18.3",
+            "version": "2.18.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocopendata.git",
-                "reference": "3973044058ec8d71341f0b421ed213299d29f2c0"
+                "reference": "d941763c2022a43656e22494d45cc9184fe09608"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocopendata/zipball/3973044058ec8d71341f0b421ed213299d29f2c0",
-                "reference": "3973044058ec8d71341f0b421ed213299d29f2c0",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocopendata/zipball/d941763c2022a43656e22494d45cc9184fe09608",
+                "reference": "d941763c2022a43656e22494d45cc9184fe09608",
                 "shasum": ""
             },
             "require": {
@@ -1134,7 +1134,7 @@
                 }
             ],
             "description": "Opencontent OpenData Extension",
-            "time": "2018-09-19T13:44:34+00:00"
+            "time": "2018-10-09T20:13:29+00:00"
         },
         {
             "name": "opencontent/ocoperatorscollection-ls",
