@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "492aefa95e6c1a2a72b81bddc84898fd",
+    "content-hash": "48f9c7358feb9595f4a197c637c44b98",
     "packages": [
         {
             "name": "composer/installers",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/installers.git",
-                "reference": "b20f7b252cd6765ee68e66f8b3093a230ad97608"
+                "reference": "4aa453ad54f76c4db02b6ad3574e17795c51fb23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/installers/zipball/b20f7b252cd6765ee68e66f8b3093a230ad97608",
-                "reference": "b20f7b252cd6765ee68e66f8b3093a230ad97608",
+                "url": "https://api.github.com/repos/composer/installers/zipball/4aa453ad54f76c4db02b6ad3574e17795c51fb23",
+                "reference": "4aa453ad54f76c4db02b6ad3574e17795c51fb23",
                 "shasum": ""
             },
             "require": {
@@ -125,7 +125,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2018-10-10T11:17:18+00:00"
+            "time": "2019-05-15 06:46:42"
         },
         {
             "name": "dpobel/ezclasslists-ls",
@@ -201,7 +201,7 @@
                 }
             ],
             "description": "Content editing autosave extension for eZ Publish legacy",
-            "time": "2015-03-30T15:15:25+00:00"
+            "time": "2015-03-30 15:15:25"
         },
         {
             "name": "ezsystems/ezfind-ls",
@@ -238,7 +238,7 @@
             "support": {
                 "source": "https://github.com/Opencontent/ezfind/tree/master"
             },
-            "time": "2018-10-02T15:41:42+00:00"
+            "time": "2018-10-02 15:41:42"
         },
         {
             "name": "ezsystems/ezflow-ls-extension",
@@ -281,25 +281,25 @@
         },
         {
             "name": "ezsystems/ezgmaplocation-ls-extension",
-            "version": "v5.3.2",
+            "version": "v5.4.0-beta1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezsystems/ezgmaplocation-ls-extension.git",
-                "reference": "b5f0c9a5530ff81afff9f795936e23f7d941b3a2"
+                "reference": "b963652aa53925e650e1b6b9b746ac7457c8d1c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezsystems/ezgmaplocation-ls-extension/zipball/b5f0c9a5530ff81afff9f795936e23f7d941b3a2",
-                "reference": "b5f0c9a5530ff81afff9f795936e23f7d941b3a2",
+                "url": "https://api.github.com/repos/ezsystems/ezgmaplocation-ls-extension/zipball/b963652aa53925e650e1b6b9b746ac7457c8d1c4",
+                "reference": "b963652aa53925e650e1b6b9b746ac7457c8d1c4",
                 "shasum": ""
             },
             "require": {
                 "ezsystems/ezpublish-legacy-installer": "*"
             },
             "suggest": {
-                "ezsystems/ezdemo-ls-extension": "~5.3",
-                "ezsystems/ezflow-ls-extension": "~5.3",
-                "ezsystems/ezwebin-ls-extension": "~5.3"
+                "ezsystems/ezdemo-ls-extension": "~5.4@beta",
+                "ezsystems/ezflow-ls-extension": "~5.4@beta",
+                "ezsystems/ezwebin-ls-extension": "~5.4@beta"
             },
             "type": "ezpublish-legacy-extension",
             "extra": {
@@ -316,7 +316,7 @@
                 }
             ],
             "description": "eZ Publish Legacy map location datatype extension",
-            "time": "2018-09-18T09:43:29+00:00"
+            "time": "2014-11-01T17:19:13+00:00"
         },
         {
             "name": "ezsystems/ezie-ls",
@@ -626,7 +626,7 @@
             "support": {
                 "source": "https://github.com/Opencontent/ezpublish-legacy-installer/tree/settings"
             },
-            "time": "2017-11-10T12:56:20+00:00"
+            "time": "2017-11-10 12:56:20"
         },
         {
             "name": "ezsystems/ezstarrating-ls-extension",
@@ -812,17 +812,51 @@
             "time": "2018-04-03T10:40:39+00:00"
         },
         {
+            "name": "opencontent/eztika-ls",
+            "version": "1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OpencontentCoop/eztika.git",
+                "reference": "9f3e7324fc3b8c12a7f7c456b0b1188184e33d82"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OpencontentCoop/eztika/zipball/9f3e7324fc3b8c12a7f7c456b0b1188184e33d82",
+                "reference": "9f3e7324fc3b8c12a7f7c456b0b1188184e33d82",
+                "shasum": ""
+            },
+            "require": {
+                "ezsystems/ezpublish-legacy-installer": "*"
+            },
+            "type": "ezpublish-legacy-extension",
+            "extra": {
+                "ezpublish-legacy-extension-name": "eztika"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "OpenContent",
+                    "homepage": "http://www.opencontent.it"
+                }
+            ],
+            "description": "OpenContent eZ Tika (a fork of Paul Borgermans eZ Tika)",
+            "time": "2019-05-27T12:58:24+00:00"
+        },
+        {
             "name": "opencontent/ftcoop-cda",
             "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ftcoop-cda.git",
-                "reference": "c0365a4a1049600a8ce6f1347cf66fb4a5b466c8"
+                "reference": "a0ddd4732746731d28b1756cade7437f546ca5a2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ftcoop-cda/zipball/c0365a4a1049600a8ce6f1347cf66fb4a5b466c8",
-                "reference": "c0365a4a1049600a8ce6f1347cf66fb4a5b466c8",
+                "url": "https://api.github.com/repos/OpencontentCoop/ftcoop-cda/zipball/a0ddd4732746731d28b1756cade7437f546ca5a2",
+                "reference": "a0ddd4732746731d28b1756cade7437f546ca5a2",
                 "shasum": ""
             },
             "require": {
@@ -846,7 +880,7 @@
                 "source": "https://github.com/OpencontentCoop/ftcoop-cda/tree/master",
                 "issues": "https://github.com/OpencontentCoop/ftcoop-cda/issues"
             },
-            "time": "2018-10-04T14:52:55+00:00"
+            "time": "2019-01-18 09:46:42"
         },
         {
             "name": "opencontent/jcremoteid-ls",
@@ -925,16 +959,16 @@
         },
         {
             "name": "opencontent/ocbootstrap-ls",
-            "version": "1.4.1.1",
+            "version": "1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocbootstrap.git",
-                "reference": "76624570deca1f486c0b00deec71fb83f5226442"
+                "reference": "4ab8fc4feb790d1aa30fd80874c40ba637cd87e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocbootstrap/zipball/76624570deca1f486c0b00deec71fb83f5226442",
-                "reference": "76624570deca1f486c0b00deec71fb83f5226442",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocbootstrap/zipball/4ab8fc4feb790d1aa30fd80874c40ba637cd87e7",
+                "reference": "4ab8fc4feb790d1aa30fd80874c40ba637cd87e7",
                 "shasum": ""
             },
             "require": {
@@ -955,20 +989,20 @@
                 }
             ],
             "description": "OpenContent Bootstrap Base Design",
-            "time": "2018-06-06T09:34:07+00:00"
+            "time": "2019-04-12T12:05:46+00:00"
         },
         {
             "name": "opencontent/occsvimport-ls",
-            "version": "2.0.1",
+            "version": "2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/occsvimport.git",
-                "reference": "73d9483af82c2b82b108c5eabb6991f6a3571ee3"
+                "reference": "2b1630279ade1ae57dbaf03135f3a21812aafd9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/occsvimport/zipball/73d9483af82c2b82b108c5eabb6991f6a3571ee3",
-                "reference": "73d9483af82c2b82b108c5eabb6991f6a3571ee3",
+                "url": "https://api.github.com/repos/OpencontentCoop/occsvimport/zipball/2b1630279ade1ae57dbaf03135f3a21812aafd9c",
+                "reference": "2b1630279ade1ae57dbaf03135f3a21812aafd9c",
                 "shasum": ""
             },
             "require": {
@@ -989,10 +1023,10 @@
             ],
             "description": "OpenContent CSV Import",
             "support": {
-                "source": "https://github.com/OpencontentCoop/occsvimport/tree/2.0.1",
+                "source": "https://github.com/OpencontentCoop/occsvimport/tree/2.1",
                 "issues": "https://github.com/OpencontentCoop/occsvimport/issues"
             },
-            "time": "2018-04-10T10:15:54+00:00"
+            "time": "2019-02-27T14:47:13+00:00"
         },
         {
             "name": "opencontent/oceditorialstuff-ls",
@@ -1033,16 +1067,16 @@
         },
         {
             "name": "opencontent/ocexportas-ls",
-            "version": "1.3.1",
+            "version": "1.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocexportas.git",
-                "reference": "d8f1d1306dda218d242d8f8e0677cce2cb28b743"
+                "reference": "d3a3d94464d5ebb0427c34452e1a1f116a10a3b7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocexportas/zipball/d8f1d1306dda218d242d8f8e0677cce2cb28b743",
-                "reference": "d8f1d1306dda218d242d8f8e0677cce2cb28b743",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocexportas/zipball/d3a3d94464d5ebb0427c34452e1a1f116a10a3b7",
+                "reference": "d3a3d94464d5ebb0427c34452e1a1f116a10a3b7",
                 "shasum": ""
             },
             "require": {
@@ -1063,10 +1097,10 @@
             ],
             "description": "Opencontent Export content As XML or CSV",
             "support": {
-                "source": "https://github.com/OpencontentCoop/ocexportas/tree/1.3.1",
+                "source": "https://github.com/OpencontentCoop/ocexportas/tree/1.3.3",
                 "issues": "https://github.com/OpencontentCoop/ocexportas/issues"
             },
-            "time": "2018-02-27T19:20:55+00:00"
+            "time": "2019-03-06T22:27:58+00:00"
         },
         {
             "name": "opencontent/ocmaintenance-ls",
@@ -1103,17 +1137,51 @@
             "time": "2018-03-06T16:55:33+00:00"
         },
         {
-            "name": "opencontent/ocopendata-ls",
-            "version": "2.18.4",
+            "name": "opencontent/ocmultibinary-ls",
+            "version": "1.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/OpencontentCoop/ocopendata.git",
-                "reference": "d941763c2022a43656e22494d45cc9184fe09608"
+                "url": "https://github.com/OpencontentCoop/ocmultibinary.git",
+                "reference": "f6016ee1d9651336b1202e42750123588f08bc5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocopendata/zipball/d941763c2022a43656e22494d45cc9184fe09608",
-                "reference": "d941763c2022a43656e22494d45cc9184fe09608",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocmultibinary/zipball/f6016ee1d9651336b1202e42750123588f08bc5b",
+                "reference": "f6016ee1d9651336b1202e42750123588f08bc5b",
+                "shasum": ""
+            },
+            "require": {
+                "ezsystems/ezpublish-legacy-installer": "*"
+            },
+            "type": "ezpublish-legacy-extension",
+            "extra": {
+                "ezpublish-legacy-extension-name": "ocmultibinary"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "OpenContent",
+                    "homepage": "http://www.opencontent.it"
+                }
+            ],
+            "description": "Opencontent Multibinary eZPublish Legacy Datatype",
+            "time": "2019-05-27T13:29:24+00:00"
+        },
+        {
+            "name": "opencontent/ocopendata-ls",
+            "version": "2.19.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OpencontentCoop/ocopendata.git",
+                "reference": "ce01c3887f375fc62d102ea65ba77a979f1083c9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocopendata/zipball/ce01c3887f375fc62d102ea65ba77a979f1083c9",
+                "reference": "ce01c3887f375fc62d102ea65ba77a979f1083c9",
                 "shasum": ""
             },
             "require": {
@@ -1134,20 +1202,20 @@
                 }
             ],
             "description": "Opencontent OpenData Extension",
-            "time": "2018-10-09T20:13:29+00:00"
+            "time": "2019-05-23T11:32:45+00:00"
         },
         {
             "name": "opencontent/ocoperatorscollection-ls",
-            "version": "2.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocoperatorscollection.git",
-                "reference": "0557af796c10f571ce8ef7ba4d98b5af3c6042c8"
+                "reference": "ecf82d1928d5eac4b63fcf1bae212a0901e7dd42"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocoperatorscollection/zipball/0557af796c10f571ce8ef7ba4d98b5af3c6042c8",
-                "reference": "0557af796c10f571ce8ef7ba4d98b5af3c6042c8",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocoperatorscollection/zipball/ecf82d1928d5eac4b63fcf1bae212a0901e7dd42",
+                "reference": "ecf82d1928d5eac4b63fcf1bae212a0901e7dd42",
                 "shasum": ""
             },
             "require": {
@@ -1168,7 +1236,7 @@
                 }
             ],
             "description": "Opencontent Template Operator Collection",
-            "time": "2018-04-03T14:16:42+00:00"
+            "time": "2019-04-11T13:23:39+00:00"
         },
         {
             "name": "opencontent/ocrecaptcha-ls",
@@ -1209,16 +1277,16 @@
         },
         {
             "name": "opencontent/ocsearchtools-ls",
-            "version": "1.9",
+            "version": "1.9.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocsearchtools.git",
-                "reference": "aa5d61d176c30b7a6d45334fa75f248c9982426c"
+                "reference": "7daf0d2610e1162921832e467aa6fa96b8b2ecbc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocsearchtools/zipball/aa5d61d176c30b7a6d45334fa75f248c9982426c",
-                "reference": "aa5d61d176c30b7a6d45334fa75f248c9982426c",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocsearchtools/zipball/7daf0d2610e1162921832e467aa6fa96b8b2ecbc",
+                "reference": "7daf0d2610e1162921832e467aa6fa96b8b2ecbc",
                 "shasum": ""
             },
             "require": {
@@ -1239,20 +1307,20 @@
                 }
             ],
             "description": "Opencontent Search Tools",
-            "time": "2018-07-03T06:32:14+00:00"
+            "time": "2019-05-14T12:58:54+00:00"
         },
         {
             "name": "opencontent/ocsocialdesign-ls",
-            "version": "1.3",
+            "version": "1.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocsocialdesign.git",
-                "reference": "e2f80e6e0fa24cd28ed175fbce6b18532a68a8d9"
+                "reference": "2e98c3c0b7e161d5ee4f6849580ee5a7fbbe8923"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocsocialdesign/zipball/e2f80e6e0fa24cd28ed175fbce6b18532a68a8d9",
-                "reference": "e2f80e6e0fa24cd28ed175fbce6b18532a68a8d9",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocsocialdesign/zipball/2e98c3c0b7e161d5ee4f6849580ee5a7fbbe8923",
+                "reference": "2e98c3c0b7e161d5ee4f6849580ee5a7fbbe8923",
                 "shasum": ""
             },
             "require": {
@@ -1273,20 +1341,20 @@
                 }
             ],
             "description": "OpenContent Social Design Pagedata",
-            "time": "2018-01-10T18:08:49+00:00"
+            "time": "2019-04-15T17:36:16+00:00"
         },
         {
             "name": "opencontent/ocsocialuser-ls",
-            "version": "1.4",
+            "version": "1.6.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/ocsocialuser.git",
-                "reference": "49855f977fe1917079eb112909038412428132d9"
+                "reference": "2ee46852ebb5a136fe808798e2bbdaa43f62b66b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/ocsocialuser/zipball/49855f977fe1917079eb112909038412428132d9",
-                "reference": "49855f977fe1917079eb112909038412428132d9",
+                "url": "https://api.github.com/repos/OpencontentCoop/ocsocialuser/zipball/2ee46852ebb5a136fe808798e2bbdaa43f62b66b",
+                "reference": "2ee46852ebb5a136fe808798e2bbdaa43f62b66b",
                 "shasum": ""
             },
             "require": {
@@ -1307,7 +1375,7 @@
                 }
             ],
             "description": "OpenContent Social User Tools",
-            "time": "2018-02-07T10:20:02+00:00"
+            "time": "2019-04-12T12:03:49+00:00"
         },
         {
             "name": "opencontent/opencontent-project-installer",
@@ -1348,12 +1416,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/OpencontentCoop/openpa_consiglio.git",
-                "reference": "084dc56e47c0436ec705aae11698ae80f3e01ec6"
+                "reference": "40037d5bd263e7c8cdac003db4cb95bc9ff995fd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/OpencontentCoop/openpa_consiglio/zipball/084dc56e47c0436ec705aae11698ae80f3e01ec6",
-                "reference": "084dc56e47c0436ec705aae11698ae80f3e01ec6",
+                "url": "https://api.github.com/repos/OpencontentCoop/openpa_consiglio/zipball/40037d5bd263e7c8cdac003db4cb95bc9ff995fd",
+                "reference": "40037d5bd263e7c8cdac003db4cb95bc9ff995fd",
                 "shasum": ""
             },
             "require": {
@@ -1378,7 +1446,7 @@
                 "source": "https://github.com/OpencontentCoop/openpa_consiglio/tree/master",
                 "issues": "https://github.com/OpencontentCoop/openpa_consiglio/issues"
             },
-            "time": "2018-10-04T16:57:18+00:00"
+            "time": "2019-05-27 11:22:23"
         },
         {
             "name": "paradoxe/paradoxpdf",

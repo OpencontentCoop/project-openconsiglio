@@ -28,7 +28,9 @@
     "opencontent/ocsocialuser-ls": "1.*",
     "opencontent/ocbinarynullparser-ls": "1.*",
     "opencontent/openpa_consiglio-ls": "dev-master",
-    "opencontent/ftcoop-cda": "dev-master"
+    "opencontent/ftcoop-cda": "dev-master",
+    "opencontent/eztika-ls": "1.*",
+    "opencontent/ocmultibinary-ls": "1.*"
   },
   "replace": {
     "ezsystems/ezdemo-ls-extension": "*"
